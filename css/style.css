@@ -1,0 +1,71 @@
+/* RESET */
+html, body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}	
+
+body {
+	background-image: url(../images/ecailles_color.png);
+	font-family: 'Alegreya Sans', sans-serif;
+	font-weight: 400;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+	
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 300;
+}
+h1 {
+	font-size: 1.875em;
+}
+h2 {
+	font-size: 1.5em;
+}
+h3 {
+	font-size: 1.125em;
+}
+h4 {
+	font-size: 1em;
+}
+h1 strong {
+	font-weight: 600;
+}
+p.catDate {
+	font-weight: 300;
+}
+
+
+/* Homepage Content */
+.content {
+	background: #fff;
+	width: 66%;
+	margin: 0 20px 0;
+	float: left;
+	position: relative;
+}
+header img {
+	display: block;
+	margin: 30px auto 0;
+}
+.content h1 {
+	width: 55%;
+	margin: 50px auto 40px;
+	text-align: center;
+}
+hr.hrContent {
+		border: 0;
+    border-top: 1px solid #fb643e;
+    margin: 0 auto 30px;
+    width: 93.5%;
+    
+}
+/*Sidebar*/
+aside {
+	background: #fff;
+	width: 31%;
+	float: right;
+	position: relative;
+}
