@@ -1,0 +1,15 @@
+header img {
+	display: block;
+	margin: 30px auto 0;
+}
+
+h1 strong {
+	color: #fb643e;
+  
+}
+
+.content h1 {
+	width: 55%;
+	margin: 50px auto 40px;
+	text-align: center;
+}

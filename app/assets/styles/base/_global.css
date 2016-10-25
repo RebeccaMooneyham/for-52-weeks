@@ -1,0 +1,43 @@
+body {
+	background-image: url(../../assets/images/ecailles_color.png);
+	font-family: 'Alegreya Sans', sans-serif;
+	font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 300;
+}
+
+h1 {
+	font-size: 1.875rem;
+}
+h2 {
+	font-size: 1.5rem;
+}
+h3 {
+	font-size: 1.125rem;
+}
+h4 {
+	font-size: 1rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+	width: 90%;
+	margin: -15px auto;
+}
+
+hr.hrContent {
+		border: 0;
+    border-top: 1px solid #fb643e;
+    margin: 0 auto 30px;
+    width: 93.5%;
+}
