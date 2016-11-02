@@ -470,11 +470,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 300;
 }
 
-h1 {
-	font-size: 1.875rem;
-}
-
-h2 {
+h1, h2 {
 	font-size: 1.5rem;
 }
 
@@ -495,38 +491,84 @@ img {
   box-sizing: border-box;
 }
 
-.container {
-	width: 90%;
-	margin: -15px auto;
-}
-
-hr.hrContent {
+.separator {
 		border: 0;
     border-top: 1px solid #fb643e;
-    margin: 0 auto 30px;
+    margin: 0 auto 1.875rem;
     width: 93.5%;
 }
 
-header img {
-	display: block;
-	margin: 30px auto 0;
+.wrapper {
+	margin: -1.875rem auto;
 }
 
-h1 strong {
-	color: #fb643e;
-  
-}
+@media (min-width: 530px) {
 
-.content h1 {
-	width: 55%;
-	margin: 50px auto 40px;
-	text-align: center;
+  .wrapper {
+    width: 90%;
+    margin: -.9375rem auto 0;
+  }
 }
 
 .content {
 	background: #fff;
-	width: 66%;
-	margin: 0 20px 0;
-	float: left;
-	position: relative;
+	margin: 0 1.25rem 0;
+}
+
+@media (min-width: 530px) {
+
+  .content {
+    width: 66%;
+    float: left;
+  }
+}
+
+.sidebar {
+	display: none;
+}
+
+@media (min-width: 530px) {
+
+  .sidebar {
+    background: #fff;
+    width: 28%;
+    margin: 0 1.25rem 0;
+    display: block;
+    float: right;
+  }
+}
+
+.site-hero__logo {
+  display: block;
+  margin: 1.875rem auto 0;
+  padding-top: 2rem;
+}
+
+@media (min-width: 530px) {
+
+  .site-hero__logo {
+    padding-top: 1rem;
+  }
+}
+
+.site-hero__tagline {
+  width: 85%;
+  margin: 2.125rem auto 2.5rem;
+  font-family: "Lucida Grande", Verdana, sans-serif;
+  font-weight: 100;
+  font-size: 1rem;
+  color: #808080;
+  text-align: center;
+}
+
+@media (min-width: 530px) {
+
+  .site-hero__tagline {
+    width: 55%;
+    font-size: 1.25rem;
+  }
+}
+
+h1 strong {
+	color: #fb643e;
 }

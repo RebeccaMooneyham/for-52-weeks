@@ -8,12 +8,10 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 300;
 }
 
-h1 {
-	font-size: 1.875rem;
-}
-h2 {
+h1, h2 {
 	font-size: 1.5rem;
 }
+
 h3 {
 	font-size: 1.125rem;
 }
@@ -30,14 +28,9 @@ img {
   box-sizing: border-box;
 }
 
-.container {
-	width: 90%;
-	margin: -15px auto;
-}
-
-hr.hrContent {
+.separator {
 		border: 0;
-    border-top: 1px solid #fb643e;
-    margin: 0 auto 30px;
+    border-top: 1px solid $mainOrange;
+    margin: 0 auto 1.875rem;
     width: 93.5%;
 }

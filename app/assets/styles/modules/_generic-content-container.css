@@ -1,0 +1,30 @@
+.wrapper {
+	margin: -1.875rem auto;
+
+	@mixin atSmall {
+		width: 90%;
+		margin: -.9375rem auto 0;
+	}
+}
+
+.content {
+	background: #fff;
+	margin: 0 1.25rem 0;
+
+	@mixin atSmall {
+		width: 66%;
+		float: left;
+	}
+}
+
+.sidebar {
+	display: none;
+
+	@mixin atSmall {
+		background: #fff;
+		width: 28%;
+		margin: 0 1.25rem 0;
+		display: block;
+		float: right;
+	}
+}

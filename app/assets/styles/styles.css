@@ -1,4 +1,6 @@
 @import "normalize.css";
+@import "base/_variables";
+@import "base/_mixins";
 @import "base/_global";
-@import "modules/_header";
 @import "modules/_generic-content-container";
+@import "modules/_header";
