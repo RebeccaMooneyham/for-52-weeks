@@ -1,0 +1,55 @@
+.flex-grid {
+  display: block;
+
+  @mixin atMedium {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+
+.article {
+  @mixin atMedium {
+    width: 300px;
+  }
+
+  &__wrapper {
+    margin: 0 auto 1.875rem;
+    width: 90%;
+  }
+
+  &__meta {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__heading, {
+    margin: 1rem 0 0;
+  }
+
+  &__category-and-date {
+    margin: .3rem 0;
+  }
+
+  &__comment-number {
+    background-image: url("../../assets/images/commentsBG.png");
+    background-repeat: no-repeat;
+    height: 52px;
+    width: 52px;
+    margin: 1rem 0 0;
+  }
+
+  &__comment-number span {
+    display: block;
+    text-align: center;
+  }
+
+  &__number {
+    font-size: 1.5rem;
+  }
+
+  &__comments {
+    font-size: .75rem;
+    font-variant: small-caps;
+  }
+}

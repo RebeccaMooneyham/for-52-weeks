@@ -1,0 +1,12 @@
+.separator {
+		border: 0;
+    border-top: 1px solid $mainOrange;
+    margin: 0 auto 1.875rem;
+    width: 93.5%;
+
+    &--large-screen {
+      @mixin atMedium {
+        display: none;
+      }
+    }
+}

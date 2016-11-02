@@ -1,0 +1,31 @@
+.navigation-arrows {
+  display: flex;
+  justify-content: space-between;
+  height: 35px;
+  font-size: 1.25rem;
+  font-variant: small-caps;
+  margin-bottom: 4.5rem;
+
+  &__prev {
+    background-image: url("../../assets/images/prev.png");
+    background-repeat: no-repeat;
+    height: 31px;
+    width: 98px;
+    margin-left: 1rem;
+  }
+
+  &__next {
+    background-image: url("../../assets/images/next.png");
+    background-repeat: no-repeat;
+    height: 31px;
+    width: 98px;
+    margin-right: 1rem;
+  }
+
+  a {
+    display: block;
+    text-align: center;
+    padding-top: .25rem;
+    color: #323232;
+  }
+}
