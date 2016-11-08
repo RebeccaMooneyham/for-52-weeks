@@ -5,7 +5,7 @@
   margin: 0 auto 1.875rem;
   width: 90%;
 
-  @mixin atMedium {
+  @mixin atLarge {
     flex-direction: row;
 
     &__left {

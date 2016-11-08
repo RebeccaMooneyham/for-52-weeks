@@ -1,0 +1,59 @@
+.sidebar {
+  padding-top: 1.25rem;
+
+  &__nav ul,
+  &__search p,
+  &__archives,
+  &__categories {
+    padding-left: 1rem;
+  }
+
+  &__nav ul {
+    margin: 2rem 0;
+  }
+
+  &__nav li {
+    text-transform: uppercase;
+    line-height: 1.75rem;
+  }
+
+  &__search {
+    margin: 1.125rem 1.125rem 2rem;
+    border: 1px solid grey;
+  }
+
+  &__quote {
+    margin: 1.125rem 1.125rem 2rem;
+  }
+
+  &__quote p {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+
+  &__quote-left {
+    padding-right: .45rem;
+  }
+
+  &__archives h2,
+  &__archives h3,
+  &__categories h2 {
+    margin-bottom: 0;
+  }
+
+  &__archives ul,
+  &__categories ul {
+    margin: .5rem 0 2rem;
+  }
+
+  &__archives h3,
+  &__categories ul {
+    padding-left: .5rem;
+  }
+
+  &__archives ul {
+    padding-left: 1rem;
+  }
+
+
+}
