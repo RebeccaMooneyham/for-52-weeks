@@ -9,3 +9,5 @@
 @import "modules/_navigation-arrows";
 @import "modules/_footer";
 @import "modules/_sidebar";
+@import "modules/_post";
+@import "modules/_comments";

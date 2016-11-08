@@ -540,6 +540,14 @@ ul {
 @media (min-width: 800px) {
 
   .content {
+    width: 660px;
+    padding: 0 .5rem;
+  }
+}
+
+@media (min-width: 1010px) {
+
+  .content {
     width: 700px;
     padding: 0 1.5rem;
   }
@@ -553,9 +561,17 @@ ul {
 
   .sidebar {
     background: #fff;
+    width: 380px;
+    margin: 0 .5rem 0;
+    display: block;
+  }
+}
+
+@media (min-width: 1010px) {
+
+  .sidebar {
     width: 340px;
     margin: 0 1.5rem 0;
-    display: block;
   }
 }
 
@@ -889,4 +905,75 @@ h1 strong {
 
 .sidebar__archives ul {
   padding-left: 1rem;
+}
+
+.post__heading {
+  margin-top: .75rem;
+  margin-bottom: 0;
+}
+
+.post__author {
+  margin: 0;
+}
+
+.post__author span {
+  text-transform: uppercase;
+}
+
+.post__image {
+  margin-top: 1rem;
+}
+
+.moreContent {
+  margin: 0 auto 1.875rem;
+  width: 90%;
+}
+
+.moreContent__tags span {
+  text-transform: uppercase;
+}
+
+.moreContent__leadin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.moreContent__leadin p {
+  padding-left: .25rem;
+}
+
+.moreContent__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.moreContent__padding {
+  padding-right: .5rem;
+}
+
+.moreContent__image h4 {
+  margin: 0;
+}
+
+.comments {
+  margin: 0 auto 1.875rem;
+  width: 90%;
+}
+
+.comments__heading {
+  text-transform: uppercase;
+  color: #fb643e;
+  font-size: 1.125rem;
 }

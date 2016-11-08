@@ -1,0 +1,51 @@
+.post {
+
+  &__heading {
+    margin-top: .75rem;
+    margin-bottom: 0;
+  }
+
+  &__author {
+    margin: 0;
+  }
+
+  &__author span {
+    text-transform: uppercase;
+  }
+
+  &__image {
+    margin-top: 1rem;
+  }
+}
+
+.moreContent {
+  margin: 0 auto 1.875rem;
+  width: 90%;
+
+  &__tags span {
+    text-transform: uppercase;
+  }
+
+  &__leadin {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  &__leadin p {
+    padding-left: .25rem;
+  }
+
+  &__flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__padding {
+    padding-right: .5rem;
+  }
+
+  &__image h4 {
+    margin: 0;
+  }
+}

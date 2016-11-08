@@ -1,0 +1,11 @@
+.comments {
+  margin: 0 auto 1.875rem;
+  width: 90%;
+
+  &__heading {
+    text-transform: uppercase;
+    color: $mainOrange;
+    font-size: 1.125rem;
+    
+  }
+}

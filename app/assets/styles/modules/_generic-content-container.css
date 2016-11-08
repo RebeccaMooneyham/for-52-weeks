@@ -15,6 +15,11 @@
 	padding: 0;
 
 	@mixin atMedium {
+		width: 660px;
+		padding: 0 .5rem;
+	}
+
+	@mixin atLarge {
 		width: 700px;
 		padding: 0 1.5rem;
 	}
@@ -25,8 +30,13 @@
 
 	@mixin atMedium {
 		background: #fff;
+		width: 380px;
+		margin: 0 .5rem 0;
+		display: block;
+	}
+
+	@mixin atLarge{
 		width: 340px;
 		margin: 0 1.5rem 0;
-		display: block;
 	}
 }
