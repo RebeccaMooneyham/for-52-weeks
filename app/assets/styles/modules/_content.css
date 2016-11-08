@@ -29,6 +29,7 @@
 
   &__category-and-date {
     margin: .3rem 0;
+    font-variant: small-caps;
   }
 
   &__comment-number {

@@ -5,6 +5,7 @@
   font-size: 1.25rem;
   font-variant: small-caps;
   margin-bottom: 4.5rem;
+  padding-top: 1.5rem;
 
   &__prev {
     background-image: url("../../assets/images/prev.png");
