@@ -588,6 +588,13 @@ ul {
   }
 }
 
+.site-hero__page-title {
+  color: #fb643e;
+  text-align: Center;
+  margin: 2.125rem 0 1rem;
+  font-weight: 500;
+}
+
 .site-hero__tagline {
   width: 85%;
   margin: 2.125rem auto 2.5rem;
@@ -747,7 +754,7 @@ h1 strong {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 0 auto 1.875rem;
+  margin: 0 auto;
   width: 90%;
 }
 
@@ -817,14 +824,14 @@ h1 strong {
   display: none;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1010px) {
 
   .footer__hide-on-small {
     display: block;
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1010px) {
 
   .footer__hide-on-medium {
     display: none;
@@ -976,4 +983,98 @@ h1 strong {
   text-transform: uppercase;
   color: #fb643e;
   font-size: 1.125rem;
+}
+
+.about {
+  margin: 0 auto 1.875rem;
+  width: 90%;
+}
+
+.about h2, .about h3 {
+  font-weight: 500;
+}
+
+@media (min-width: 1010px) {
+
+  .about__author-left {
+    width: 70%;
+  }
+}
+
+.about__author-right {
+  background-color: #f8f0db;
+  padding: 1rem 1rem .5rem 1rem;
+}
+
+@media (min-width: 1010px) {
+
+  .about__author-right {
+    width: 25%;
+    margin-left: 3rem;
+  }
+}
+
+.about__author {
+  margin-top: 5rem;
+}
+
+@media (min-width: 1010px) {
+
+  .about__author {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.about__author-meta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.about__author-meta h2 {
+  padding-left: 2rem;
+}
+
+.about__author-meta img {
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+}
+
+.about__category-title {
+  margin-bottom: 0;
+}
+
+.about__category-item {
+  margin-top: 0;
+}
+
+.resources {
+  margin: 0 auto 1.875rem;
+  width: 90%;
+}
+
+.resources h2 {
+  font-weight: 500;
+}
+
+.resources__section {
+  margin-bottom: 3rem;
+}
+
+.contact {
+  margin: 0 auto 1.875rem;
+  width: 90%;
 }

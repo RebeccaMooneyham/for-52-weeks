@@ -1,0 +1,59 @@
+.about {
+  margin: 0 auto 1.875rem;
+  width: 90%;
+
+  h2, h3 {
+    font-weight: 500;
+  }
+
+  &__author-left {
+
+    @mixin atLarge {
+      width: 70%;
+    }
+  }
+
+  &__author-right {
+    background-color: #f8f0db;
+    padding: 1rem 1rem .5rem 1rem;
+
+    @mixin atLarge {
+      width: 25%;
+      margin-left: 3rem;
+    }
+  }
+
+  &__author {
+    margin-top: 5rem;
+
+    @mixin atLarge {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+
+  &__author-meta {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__author-meta h2 {
+    padding-left: 2rem;
+  }
+
+  &__author-meta img {
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+  }
+
+  &__category-title {
+    margin-bottom: 0;
+  }
+
+  &__category-item {
+    margin-top: 0;
+  }
+}

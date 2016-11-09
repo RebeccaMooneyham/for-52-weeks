@@ -10,6 +10,13 @@
 		}
 	}
 
+	&__page-title {
+		color: $mainOrange;
+		text-align: Center;
+		margin: 2.125rem 0 1rem;
+		font-weight: 500;
+	}
+
 	&__tagline {
 		width: 85%;
 		margin: 2.125rem auto 2.5rem;
@@ -25,7 +32,6 @@
 		}
 	}
 }
-
 
 h1 strong {
 	color: $mainOrange;

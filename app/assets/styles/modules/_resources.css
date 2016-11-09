@@ -1,0 +1,12 @@
+.resources {
+  margin: 0 auto 1.875rem;
+  width: 90%;
+
+  h2 {
+    font-weight: 500;
+  }
+
+  &__section {
+    margin-bottom: 3rem;
+  }
+}

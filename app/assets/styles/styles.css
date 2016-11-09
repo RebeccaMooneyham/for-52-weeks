@@ -11,3 +11,6 @@
 @import "modules/_sidebar";
 @import "modules/_post";
 @import "modules/_comments";
+@import "modules/_about-page";
+@import "modules/_resources";
+@import "modules/_contact";
