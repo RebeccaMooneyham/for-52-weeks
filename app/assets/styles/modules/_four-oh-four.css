@@ -1,0 +1,64 @@
+.four-oh-four-wrapper {
+
+	@mixin atMedium {
+		width: 90%;
+		margin: -.9375rem auto 0;
+		display: flex;
+    justify-content: center;
+	}
+}
+
+.four-oh-four-content {
+	background: #fff;
+	margin: 2rem 1.5rem;
+	padding: 0;
+  display: flex;
+  justify-content: center;
+
+	@mixin atMedium {
+    margin: 3rem;
+		width: 660px;
+		padding: 0 .5rem;
+	}
+
+	@mixin atLarge {
+    width: 800px;
+		padding: 0 1.5rem;
+	}
+}
+
+.fourOhFour {
+  padding: 3rem 2rem;
+  width: 300px;
+
+  @mixin atMedium {
+    width: 400px;
+  }
+
+  &__image {
+    display: block;
+    padding: 2rem 1rem 1rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  p {
+    text-align: center;
+
+  }
+
+  &__oops,
+  &__sorry,
+  &__go-home {
+    font-size: 1.85rem;
+  }
+
+  &__oops {
+    margin-bottom: 0;
+  }
+
+  &__sorry {
+    margin-bottom: 0;
+    margin-top: .25rem;
+  }
+}

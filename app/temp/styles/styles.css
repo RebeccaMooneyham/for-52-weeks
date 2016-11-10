@@ -1055,6 +1055,7 @@ h1 strong {
 
 .about__category-title {
   margin-bottom: 0;
+  text-transform: uppercase;
 }
 
 .about__category-item {
@@ -1077,4 +1078,85 @@ h1 strong {
 .contact {
   margin: 0 auto 1.875rem;
   width: 90%;
+}
+
+@media (min-width: 800px) {
+
+  .four-oh-four-wrapper {
+    width: 90%;
+    margin: -.9375rem auto 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.four-oh-four-content {
+	background: #fff;
+	margin: 2rem 1.5rem;
+	padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (min-width: 800px) {
+
+  .four-oh-four-content {
+    margin: 3rem;
+    width: 660px;
+    padding: 0 .5rem;
+  }
+}
+
+@media (min-width: 1010px) {
+
+  .four-oh-four-content {
+    width: 800px;
+    padding: 0 1.5rem;
+  }
+}
+
+.fourOhFour {
+  padding: 3rem 2rem;
+  width: 300px;
+}
+
+@media (min-width: 800px) {
+
+  .fourOhFour {
+    width: 400px;
+  }
+}
+
+.fourOhFour__image {
+  display: block;
+  padding: 2rem 1rem 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fourOhFour p {
+  text-align: center;
+}
+
+.fourOhFour__oops,
+  .fourOhFour__sorry,
+  .fourOhFour__go-home {
+  font-size: 1.85rem;
+}
+
+.fourOhFour__oops {
+  margin-bottom: 0;
+}
+
+.fourOhFour__sorry {
+  margin-bottom: 0;
+  margin-top: .25rem;
 }

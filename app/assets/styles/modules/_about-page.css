@@ -51,6 +51,7 @@
 
   &__category-title {
     margin-bottom: 0;
+    text-transform: uppercase;
   }
 
   &__category-item {
