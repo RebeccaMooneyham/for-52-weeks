@@ -1160,3 +1160,62 @@ h1 strong {
   margin-bottom: 0;
   margin-top: .25rem;
 }
+
+.nav-side {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  max-width: 250px;
+  background-image: url(../../assets/images/crossword.png);
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: -250px;
+  -webkit-transition: margin 200ms ease-in-out;
+  transition: margin 200ms ease-in-out;
+}
+
+@media (min-width: 800px) {
+
+  .nav-side {
+    display: none;
+  }
+}
+
+.nav-side.nav-open {
+  margin-left: 0;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, .3);
+}
+
+.nav-side.nav-open ul {
+  font-size: 1.5rem;
+}
+
+.nav-side.nav-open ul li {
+  line-height: 3rem;
+}
+
+.nav-toggle {
+  position: absolute;
+  right: -36px;
+  top: 0;
+  width: 36px;
+  height: 36px;
+  background-color: #fb643e;
+  line-height: 36px;
+  text-align: center;
+  border-bottom-right-radius: 3px;
+  box-shadow: 1px 0 3px rgba(0, 0, 0, .2);
+}
+
+.nav-toggle:before {
+  content: "\2192";
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.nav-side.nav-open .nav-toggle:before {
+  content: "\2190";
+}
