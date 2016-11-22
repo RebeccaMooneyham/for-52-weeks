@@ -9,7 +9,7 @@
 }
 
 .article {
-  @mixin atMedium {
+  @mixin atLarge {
     width: 300px;
   }
 

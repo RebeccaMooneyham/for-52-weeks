@@ -11,7 +11,7 @@
 }
 
 @define-mixin atLarge {
-  @media (min-width: 1010px) {
+  @media (min-width: 1190px) {
     @mixin-content;
   }
 }
