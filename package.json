@@ -2,6 +2,7 @@
   "name": "for-52-weeks",
   "version": "1.0.0",
   "dependencies": {
+    "del": "^2.2.2",
     "jquery": "^3.1.1",
     "normalize.css": "^5.0.0"
   },
@@ -9,8 +10,13 @@
     "autoprefixer": "^6.5.1",
     "browser-sync": "^2.17.5",
     "gulp": "^3.9.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-imagemin": "^3.1.1",
     "gulp-modernizr": "^1.0.0-alpha",
     "gulp-postcss": "^6.2.0",
+    "gulp-rev": "^7.1.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-usemin": "^0.3.25",
     "gulp-watch": "^4.3.10",
     "postcss-import": "^8.1.2",
     "postcss-mixins": "^5.4.0",
